@@ -21,8 +21,8 @@ public class armstrong {
 			int a=temp%10;
 			int prod =1;
 			for (int i = 0; i < digits; i++) {
-                prod *= a;
-            }
+               			 prod *= a;
+          		  }
 			sum+=prod;
 			temp/=10;
 		}
